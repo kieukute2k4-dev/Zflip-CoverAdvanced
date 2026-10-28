@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cover Advanced Terms of Service</title>
+    <meta
+        name="description"
+        content="Terms of Service for Cover Advanced, an Android utility for supported Samsung Galaxy Z Flip devices." />
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #0b0f14;
+            --panel: #121922;
+            --panel-2: #18212b;
+            --text: #eef4fb;
+            --muted: #aab7c7;
+            --accent: #8fd9ff;
+            --line: #283445;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background:
+                radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 42%),
+                linear-gradient(180deg, #0d1218 0%, var(--bg) 100%);
+            color: var(--text);
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.65;
+        }
+
+        body {
+            padding: 32px 18px 64px;
+        }
+
+        .wrap {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .hero,
+        .section {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015));
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            padding: 24px;
+            backdrop-filter: blur(8px);
+        }
+
+        .hero {
+            margin-bottom: 18px;
+        }
+
+        .section {
+            margin-bottom: 14px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0 0 12px;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 3.8vw, 3rem);
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+
+        h3 {
+            font-size: 1rem;
+            color: #d8e7f8;
+        }
+
+        p,
+        li {
+            color: var(--muted);
+            margin: 0 0 10px;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 14px 0 0;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            min-height: 34px;
+            padding: 0 12px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--panel-2);
+            color: #d7e8fa;
+            font-size: 0.92rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .note {
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background: rgba(255, 255, 255, 0.06);
+            padding: 1px 6px;
+            border-radius: 6px;
+            color: #f2f7fd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <section class="hero">
+            <h1>Cover Advanced Terms of Service</h1>
+            <p>
+                These Terms govern your use of Cover Advanced, an Android utility for supported
+                Samsung Galaxy Z Flip devices. Please read them before pairing Wireless debugging
+                or starting a mirror session.
+            </p>
+            <div class="meta">
+                <span class="chip">Last updated: October 29, 2026</span>
+                <span class="chip">App: Cover Advanced</span>
+                <span class="chip">Version: 1.107</span>
+                <span class="chip">Platform: Android</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>1. Developer and Contact</h2>
+            <p>Cover Advanced is published by BEAT, based in Vietnam.</p>
+            <p>Support email: <a href="mailto:kieukute2k4@gmail.com">kieukute2k4@gmail.com</a></p>
+        </section>
+
+        <section class="section">
+            <h2>2. Acceptance and Privacy</h2>
+            <p>
+                By installing or using Cover Advanced, you agree to these Terms to the extent
+                permitted by applicable law. The
+                <a href="privacy-policy.html">Privacy Policy</a> explains how the app handles
+                information on your device. If you do not agree, stop using the app and uninstall it.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>3. The App and Device Requirements</h2>
+            <p>
+                Cover Advanced provides display mirroring and touch forwarding between supported
+                Samsung Galaxy Z Flip displays. Compatibility depends on the device model, Android
+                version, Samsung software, and system settings. The app currently targets Android
+                13 or later on supported devices; behavior may vary across updates and device builds.
+            </p>
+            <p>
+                After you pair Wireless debugging, the app can start an idle bridge after reboot
+                when Android permits it and the pairing remains valid. Reboot startup does not
+                automatically open a mirror session.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>4. Wireless Debugging and Device Permissions</h2>
+            <p>
+                Cover Advanced uses Android Wireless debugging and a user-authorized ADB identity
+                to run its local bridge. Shizuku is not required by the current version. Wireless
+                debugging gives the bridge shell-level access to the phone so it can control
+                display settings, manage the mirror session, and forward touch input.
+            </p>
+            <p>
+                You are responsible for pairing only your own device or a device you are authorized
+                to manage, reviewing Android's prompts, and keeping Wireless debugging enabled only
+                as long as you want the bridge to reconnect. You may revoke the pairing in Android
+                Developer options.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>5. License and Payment</h2>
+            <p>
+                BEAT grants you a limited, personal, non-exclusive, non-transferable license to
+                install and use Cover Advanced on devices you own or control, subject to these Terms,
+                applicable law, and any third-party licenses shipped with the app. No ownership of
+                the app or its intellectual property is transferred to you.
+            </p>
+            <p>
+                The current app does not process purchases, subscriptions, or payment-card
+                information. If a third-party distributor charges for access to a copy, its
+                transaction terms apply to that transaction.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>6. Acceptable Use</h2>
+            <p>You agree to use Cover Advanced only in a lawful and authorized way. You must not:</p>
+            <ul>
+                <li>pair or control a device without its owner's authorization;</li>
+                <li>use the app to interfere with another person's device, data, or services;</li>
+                <li>use the app to bypass Android or Samsung security protections or to perform unlawful activity;</li>
+                <li>redistribute, sell, or sublicense the app except as allowed by applicable law and any third-party license.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>7. Device Settings and Safe Shutdown</h2>
+            <p>
+                During a mirror session, the bridge may change display size, density, rotation,
+                display power, and a system mirror setting. It saves the pre-session state and
+                attempts to restore it when the session ends. It may separately remember display
+                values you changed while mirroring so they can be used in a later session.
+            </p>
+            <p>
+                Before clearing app data, uninstalling the app, or revoking Wireless debugging,
+                deactivate the mirror and wait for restoration to finish. Removing the app or its
+                ADB authorization while a session is active can prevent the bridge from completing
+                restoration. If recovery is pending, use the app's recovery action before removing
+                it.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>8. Third-Party Platforms</h2>
+            <p>
+                Cover Advanced relies on Android and Samsung device features, including Wireless
+                debugging, notifications, and display services. Those platforms are governed by
+                their own terms and privacy policies. Cover Advanced is an independent app and is
+                not affiliated with or endorsed by Samsung or Google. Third-party components may
+                be subject to the licenses and notices included with the app.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>9. Updates and Availability</h2>
+            <p>
+                We may update or change the app to maintain compatibility, improve operation, or
+                address security issues. We do not guarantee uninterrupted availability or
+                compatibility with every device, Android release, or future Samsung update.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>10. Disclaimer</h2>
+            <p>
+                To the maximum extent permitted by law, Cover Advanced is provided on an
+                “as available” basis without a promise that it will work on every device or system
+                configuration. You choose whether to authorize Wireless debugging and use the
+                display-control features. These Terms do not exclude warranties or rights that
+                cannot be excluded under applicable law.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>11. Limitation of Liability</h2>
+            <p>
+                To the maximum extent permitted by law, BEAT is not liable for indirect, incidental,
+                special, or consequential loss arising from use of the app, including loss caused by
+                device incompatibility, interrupted Wireless debugging, or a system update.
+                Nothing in these Terms limits liability where applicable law does not allow that
+                limitation, or limits mandatory consumer rights.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>12. Suspension and Termination</h2>
+            <p>
+                You may stop using Cover Advanced at any time. BEAT may suspend app support or your
+                license if necessary to address misuse, security issues, or a material breach of
+                these Terms. Before uninstalling, deactivate the bridge and confirm that the phone
+                has returned to its normal display settings.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>13. Governing Law</h2>
+            <p>
+                These Terms are governed by the laws of Vietnam, except that mandatory consumer
+                protection rights in your place of residence continue to apply where required.
+                In Vietnam, see the
+                <a href="https://vanban.chinhphu.vn/?classid=1&amp;docid=208363&amp;pageid=27160">Law on Protection of Consumers' Rights No. 19/2023/QH15</a>.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>14. Changes and Contact</h2>
+            <p>
+                We may update these Terms when the app or applicable requirements change. The date
+                at the top identifies the latest version. Questions can be sent to
+                <a href="mailto:kieukute2k4@gmail.com">kieukute2k4@gmail.com</a>.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
