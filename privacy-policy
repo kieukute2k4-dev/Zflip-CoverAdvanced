@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cover Advanced Privacy Policy</title>
+    <meta
+        name="description"
+        content="Privacy Policy for Cover Advanced, an Android utility for supported Samsung Galaxy Z Flip devices." />
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #0b0f14;
+            --panel: #121922;
+            --panel-2: #18212b;
+            --text: #eef4fb;
+            --muted: #aab7c7;
+            --accent: #8fd9ff;
+            --line: #283445;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background:
+                radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 42%),
+                linear-gradient(180deg, #0d1218 0%, var(--bg) 100%);
+            color: var(--text);
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.65;
+        }
+
+        body {
+            padding: 32px 18px 64px;
+        }
+
+        .wrap {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .hero,
+        .section {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015));
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            padding: 24px;
+            backdrop-filter: blur(8px);
+        }
+
+        .hero {
+            margin-bottom: 18px;
+        }
+
+        .section {
+            margin-bottom: 14px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0 0 12px;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 3.8vw, 3rem);
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+
+        h3 {
+            font-size: 1rem;
+            color: #d8e7f8;
+        }
+
+        p,
+        li {
+            color: var(--muted);
+            margin: 0 0 10px;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 14px 0 0;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            min-height: 34px;
+            padding: 0 12px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--panel-2);
+            color: #d7e8fa;
+            font-size: 0.92rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .note {
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background: rgba(255, 255, 255, 0.06);
+            padding: 1px 6px;
+            border-radius: 6px;
+            color: #f2f7fd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <section class="hero">
+            <h1>Cover Advanced Privacy Policy</h1>
+            <p>
+                This Privacy Policy explains what Cover Advanced accesses on your Android device,
+                how it uses that information, and how you can manage or remove locally stored data.
+            </p>
+            <div class="meta">
+                <span class="chip">Last updated: October 29, 2026</span>
+                <span class="chip">App: Cover Advanced</span>
+                <span class="chip">Version: 1.107</span>
+                <span class="chip">Platform: Android</span>
+                <span class="chip">Designed for local processing</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>1. Developer and Contact</h2>
+            <p>This Policy applies to Cover Advanced, published by BEAT.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Developer</h3>
+                    <p>BEAT</p>
+                </div>
+                <div class="card">
+                    <h3>Region</h3>
+                    <p>Vietnam</p>
+                </div>
+                <div class="card">
+                    <h3>Privacy Contact</h3>
+                    <p><a href="mailto:kieukute2k4@gmail.com">kieukute2k4@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>2. Summary</h2>
+            <ul>
+                <li>Cover Advanced does not create user accounts or include advertising, analytics, or crash-reporting services.</li>
+                <li>The current version has no developer-operated account or analytics server and does not automatically send app data to BEAT.</li>
+                <li>The app uses Android Wireless debugging over your local network to pair with and control the same phone. It also uses a loopback-only connection between the app and its local bridge.</li>
+                <li>Display settings, touch events, pairing credentials, and bridge state are processed or stored on the device to provide the requested features.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>3. Information the App Accesses</h2>
+
+            <h3>3.1 Wireless debugging and pairing</h3>
+            <p>
+                When you set up Wireless debugging, Cover Advanced discovers the pairing service
+                advertised by Android on your local network. The six-digit pairing code you enter
+                is used to pair with that service and is not sent to BEAT or a Cover Advanced server.
+                The app also uses a per-install ADB identity: its private key is kept in the app's
+                private, no-backup storage, while Android stores the authorization for the paired
+                identity until you revoke it in Wireless debugging settings.
+            </p>
+            <p>
+                During a connection, the app processes the local address and port advertised by
+                Android's ADB service. These connection details are used only to reach the phone's
+                Wireless debugging service.
+            </p>
+
+            <h3>3.2 Device and display state</h3>
+            <p>
+                The app checks the device manufacturer and model locally to determine compatibility.
+                While a mirror session runs, the bridge reads display identifiers, screen geometry,
+                display rotation, device posture, and the mirror setting needed to open and restore
+                the cover display. It temporarily saves the screen configuration that was active
+                before the session, so it can restore that configuration when the session ends.
+            </p>
+            <p>
+                Android mirrors the main display to the cover display locally. Cover Advanced does
+                not capture screen images into app storage or transmit screen content.
+            </p>
+            <p>
+                Cover Advanced also keeps a separate local cover-display profile. If you change the
+                display size or density while mirroring, the app may save the changed values for the
+                next session. The original settings used for recovery remain separate.
+            </p>
+
+            <h3>3.3 Touch input</h3>
+            <p>
+                While mirroring is active, the bridge reads touch events from the cover display and
+                forwards corresponding touch input to the phone's main display. This input is handled
+                transiently in memory to operate the feature. Cover Advanced does not record touch
+                history or send touch events to BEAT.
+            </p>
+
+            <h3>3.4 Local preferences, credentials, and diagnostics</h3>
+            <p>
+                Cover Advanced stores a pairing status flag, its ADB identity, and a local control
+                token on the device. The bridge may also keep its executable, a diagnostic log, the
+                active recovery backup, and the saved cover-display profile in Android's
+                <code>/data/local/tmp</code> directory. These files are used by the local bridge and
+                are not uploaded by the app.
+            </p>
+            <p>
+                Android system logs may contain pairing status, a local network address or port,
+                device and display identifiers, configuration values, and error details. The app
+                does not automatically upload these logs. If you choose to send diagnostic material
+                to support, it may contain those details.
+            </p>
+
+            <h3>3.5 Notifications and reboot startup</h3>
+            <p>
+                Notifications are used for pairing-code entry and to show bridge status. If you have
+                paired the device and left Wireless debugging enabled, Android may run a scheduled
+                startup job after reboot to start the idle bridge. The mirror session itself is not
+                opened automatically after reboot.
+            </p>
+
+            <h3>3.6 Permissions and information not requested</h3>
+            <p>
+                Network and Wi-Fi permissions support local Wireless debugging discovery and
+                connection. Notification permission supports pairing and status notices. The boot
+                permission supports the scheduled bridge startup described above. The current app
+                does not request access to contacts, location, camera, or microphone.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>4. How Information Is Used</h2>
+            <p>Cover Advanced uses locally accessed information to:</p>
+            <ul>
+                <li>pair with Android Wireless debugging and start the authorized local bridge;</li>
+                <li>check device compatibility and identify the inner and cover displays;</li>
+                <li>mirror the main display to the cover display and forward cover touch input;</li>
+                <li>save and restore screen settings, and retain a cover-display profile for later sessions;</li>
+                <li>show pairing and service-status notifications and retry idle bridge startup after reboot.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>5. Network Use and Sharing</h2>
+            <p>
+                The app's network permission is used for Android's local Wireless debugging
+                connection and service discovery. Its bridge control socket listens only on the
+                phone's loopback address. The current version does not connect to a BEAT-operated
+                backend, send analytics, show ads, or sell or share app data for marketing.
+            </p>
+            <p>
+                Android and Samsung system services handle their own Wireless debugging,
+                notifications, and device logs under their respective platform policies. If you
+                contact support by email, BEAT and your email provider receive the message and any
+                files you choose to attach. Email providers may process messages on systems outside
+                Vietnam under their own policies.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>6. Storage, Retention, and Deletion</h2>
+            <ul>
+                <li>The ADB identity and app preferences remain in app-private storage until you clear Cover Advanced's app data or uninstall it.</li>
+                <li>Android may keep the paired ADB authorization until you remove Cover Advanced from the paired-device list in Wireless debugging settings.</li>
+                <li>The session recovery backup is removed after the app verifies that the original display state has been restored. If recovery fails, the backup is kept so it can be tried again.</li>
+                <li>The learned cover-display profile is kept on the device for future sessions. The bridge executable, control token, and diagnostic log may also remain in <code>/data/local/tmp</code>, including after the app is uninstalled.</li>
+                <li>Support emails are kept in the support mailbox for as long as needed to respond and handle the request.</li>
+            </ul>
+            <p>
+                To remove app-private data, deactivate the mirror first, then clear the app's storage
+                or uninstall Cover Advanced. To revoke shell authorization, forget its paired
+                identity in Android's Wireless debugging settings. Shell-side files in
+                <code>/data/local/tmp</code> can be removed with Android Debug Bridge after the
+                mirror has been deactivated and the screen has returned to its normal settings.
+                Do not delete a recovery-backup file while recovery is still pending.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>7. Your Choices and Privacy Requests</h2>
+            <p>
+                You control whether to pair Wireless debugging, allow notifications, use the mirror,
+                and keep Wireless debugging enabled for startup after reboot. You can revoke the ADB
+                pairing in Android settings and remove local app data using Android settings.
+            </p>
+            <p>
+                You may contact BEAT about privacy questions or information you believe was sent
+                through the app. The app has no developer-side account or store of device activity
+                to search or delete. Rights provided by mandatory data-protection law remain
+                unaffected. In Vietnam, see the
+                <a href="https://vanban.chinhphu.vn/?docid=214590&amp;pageid=27160">Personal Data Protection Law No. 91/2025/QH15</a>
+                and
+                <a href="https://vanban.chinhphu.vn/?classid=1&amp;docid=216387&amp;pageid=27160">Decree No. 356/2025/ND-CP</a>.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>8. Children</h2>
+            <p>
+                Cover Advanced is a device utility and is not designed for children. The app does
+                not knowingly collect children's information for a developer-operated service.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>9. Security</h2>
+            <p>
+                The ADB private key is stored in app-private no-backup storage, and bridge control
+                uses a local authentication token. Wireless debugging grants powerful shell access
+                to this phone. Pair only a device you own or are authorized to manage, and revoke
+                the pairing when you no longer want Cover Advanced to reconnect.
+            </p>
+            <p>
+                No software can guarantee absolute security. Keep Android updated and do not share
+                pairing codes, ADB credentials, or diagnostic logs publicly.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>10. Changes to This Policy</h2>
+            <p>
+                This Policy may be updated when the app's behavior or applicable requirements
+                change. The date at the top identifies the latest version.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>11. Contact</h2>
+            <p>For privacy questions, contact BEAT at <a href="mailto:kieukute2k4@gmail.com">kieukute2k4@gmail.com</a>.</p>
+        </section>
+    </div>
+</body>
+</html>
